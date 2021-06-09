@@ -51,6 +51,26 @@ body {
 
 /* colori */
 
+.erba {
+    background-color: green;
+}
+
+.rosa {
+    background-color: fuchsia;
+}
+
+.arancione {
+    background-color: orange;
+}
+
+.verde {
+    background-color: darkgreen;
+}
+
+.viola {
+    background-color: purple;
+}
+
 .azzurro {
     background-color: #1E90FF;
 }
@@ -95,6 +115,7 @@ h4 {
     text-align: center;
     vertical-align: middle;
     line-height: 30px;
+    border: 3px;
 }
 
 .done {
@@ -102,4 +123,13 @@ h4 {
     border: 1px solid forestgreen;
     border-radius: 50%;
     padding: 1px;
+    margin-right: 7px;
+}
+
+.undone {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 7px;
 }
