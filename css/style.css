@@ -33,6 +33,7 @@ body {
     width: 75%;
     background-color: white;
     margin: 50px auto;
+    padding: 10px 30px;
 }
 
 /* sezione bottoni */
@@ -66,4 +67,39 @@ body {
 
 .testo-grigio {
     color: grey;
+}
+
+/* css tendine */
+
+.tendine {
+    padding: 20px;
+}
+
+h2 {
+    margin: 3px;
+    color: darkslategray;
+}
+
+h4 {
+    margin: 3px;
+    color: darkslategray;
+    display: inline-block;
+}
+
+.messaggio {
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 14px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.done {
+    color: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 50%;
+    padding: 1px;
 }
