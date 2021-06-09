@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: grey;
+}
+
+/* header */
+
+#head-banner {
+    background-color: white;
+    height: 60px;
+    line-height: 30px;
+}
+
+#logo-img {
+    vertical-align: middle;
+}
+
+#logo-text {
+    font-size: 40px;
+    vertical-align: middle;
+}
