@@ -1,3 +1,5 @@
+/* tag generali */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: lightgray;
 }
 
 /* header */
@@ -23,4 +25,45 @@ body {
 #logo-text {
     font-size: 40px;
     vertical-align: middle;
+}
+
+/* corpo pagina */
+
+.corpo-pagina {
+    width: 75%;
+    background-color: white;
+    margin: 50px auto;
+}
+
+/* sezione bottoni */
+
+.bottone {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+/* colori */
+
+.azzurro {
+    background-color: #1E90FF;
+}
+
+.bianco{
+    background-color: white;
+    border: 1px solid lightgray;
+    line-height: 28px;
+}
+
+.testo-bianco {
+    color: white;
+}
+
+.testo-grigio {
+    color: grey;
 }
